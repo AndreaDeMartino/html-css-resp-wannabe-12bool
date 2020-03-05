@@ -21,7 +21,7 @@
   padding: 0;
 }
 
-/* Max Devices */
+/* Breakpoint: Max Devices */
 @media all and (min-width: 1200px){
   .col-lg-1{
     width: calc(100% / 12);
@@ -118,8 +118,8 @@
 
 }
 
-/* Medium Devices */
-@media all and (min-width: 769px) and (max-width: 1199){
+/* Breakpoint: Medium Devices */
+@media all and (min-width: 769px) and (max-width: 1199px){
   .col-md-1{
     width: calc(100% / 12);
   }
@@ -215,7 +215,7 @@
 
 }
 
-/* Small Devices */
+/* Breakpoint: Small Devices */
 @media all and (max-width: 768px){
   .col-xs-1{
     width: calc(100% / 12);
@@ -309,5 +309,5 @@
   .offset-xs-11 {
     margin-left: calc((100% / 12) * 11);
   }
-  
+
 }
